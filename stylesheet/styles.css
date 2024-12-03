@@ -1,0 +1,12 @@
+/* Apply background image to the main page */
+body {
+    background-image: url('../irudiak/fakultatea.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+/* Ensure the navbar does not inherit the background image */
+.navbar {
+    background: none;
+}
