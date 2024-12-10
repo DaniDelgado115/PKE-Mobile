@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GRAL laguntza orria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    .card {
+      border-radius: 15px;
+  }
+  .card-body {
+      background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  }
+  body {
+      background-color: #f4f6f9;
+  }
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -92,19 +101,132 @@
     <br>
     <br>
     <br>
-    <div class="position-relative">
-      <div class="position-absolute top-0 start-50 translate-middle-x" style="width: 75%;">
-      <div class="card" style=" align-items: center; background-color: rgba(255, 255, 255, 0.75);"  >
-        <div class="card-body" >
-          <h3>Memoriak</h3>
-          <p class="text-start" style="text-align: justify;"><p>Hurrengo web orrian ehu-ko ikasleen memoriak aurki ditzazkezu:</p>
-          <a href="https://addi.ehu.es/handle/10810/9244/browse?type=departamentoeu&value=Sistemen+ingeniaritza+eta+automatika">Memoriei buruzko informaizioa duen web orria hemen.</a>
-        </p>
-          <br>
-          
-        </div>
-      </div>
-    </div>
+
     
+
+    <div class="container my-5">
+        <h1 class="text-center mb-5 text-primary">Informatikako Gradu Amaierako Lanen Memoriak</h1>
+        <p class="text-center mb-5">Ikasleen esperientziak eta ikaskuntzak beren TFG-etan</p>
+
+        <!-- Sección en Castellano -->
+        <section id="castellano" class="mb-5">
+            <h2 class="mb-4 text-center text-secondary">Memorias en Castellano</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">García Escribano, Joel Moisés</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">Ingeniería de Software | Promoción 2023</h6>
+                            <p class="card-text">Mi Trabajo de Fin de Grado fue mucho más que un requisito académico; fue un viaje de autodescubrimiento profesional. Desarrollé una aplicación innovadora de gestión de proyectos para startups locales, centrándome en optimizar la comunicación y la eficiencia de equipos pequeños.</p>
+                            <p class="card-text">El proceso comenzó con una exhaustiva investigación de mercado, donde identifiqué las principales necesidades de las pequeñas empresas tecnológicas. Implementé metodologías ágiles como Scrum, lo que me permitió crear una solución verdaderamente adaptativa y centrada en el usuario.</p>
+                            <p class="card-text">Mi mayor aprendizaje fue comprender que la tecnología no solo se trata de código, sino de resolver problemas reales y crear valor para las personas. Trabajar con mi tutor, el Dr. Carlos Martín, fue fundamental para pulir cada detalle del proyecto y mantener un enfoque crítico y constructivo.</p>
+                            <a href="http://hdl.handle.net/10810/68412">PDF</a>
+                            <div class="text-end mt-3">
+                                <span class="badge bg-primary">Mención de Honor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Hurtado Pelaez, Unai</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">Sistemas de Información | Promoción 2022</h6>
+                            <p class="card-text">Mi travesía en el Trabajo de Fin de Grado me llevó a explorar los desafíos de la transformación digital en el sector financiero. Mi objetivo era diseñar un sistema integral de análisis de riesgos que pudiera ayudar a las instituciones a tomar decisiones más inteligentes y rápidas.</p>
+                            <p class="card-text">El proyecto combinó análisis de datos complejos, machine learning y visualización de información. Desarrollé un dashboard interactivo que permitía a los analistas financieros comprender patrones de riesgo de manera intuitiva. La parte más desafiante fue equilibrar la precisión técnica con la usabilidad.</p>
+                            <p class="card-text">Aprendí que la verdadera innovación surge cuando la tecnología se alinea perfectamente con las necesidades humanas. Mantuve una comunicación constante con mi tutora, la Dra. Elena Ramírez, quien me guió para ver más allá del código y entender el impacto real de mi proyecto.</p>
+                            <a href="http://hdl.handle.net/10810/63224">PDF</a>
+                            <div class="text-end mt-3">
+                                <span class="badge bg-success">Proyecto Destacado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección en Inglés -->
+        <section id="ingles" class="mb-5">
+            <h2 class="mb-4 text-center text-secondary">Memories in English</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Dementei, Emanuel</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">Computer Engineering | Class of 2023</h6>
+                            <p class="card-text">My final project was an immersive journey into the world of cybersecurity, developing an advanced threat detection and prevention system that goes beyond traditional security paradigms.</p>
+                            <p class="card-text">The project involved creating a machine learning-powered platform that could analyze network traffic in real-time, identifying potential security breaches with unprecedented accuracy. I integrated various data sources, including network logs, user behavior analytics, and threat intelligence feeds.</p>
+                            <p class="card-text">The most significant challenge was staying ahead of the rapidly evolving cybersecurity landscape. Working closely with my advisor, Dr. Emily Richardson, I learned that innovation is not just about technical prowess, but about understanding the complex ecosystem of digital threats.</p>
+                            <a href="http://hdl.handle.net/10810/63199">PDF</a>
+                            <div class="text-end mt-3">
+                                <span class="badge bg-danger">Innovative Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">	Ugarte Atanasoff, Uxer</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">Artificial Intelligence | Class of 2022</h6>
+                            <p class="card-text">My Final Degree Project was an exploration of the frontiers of personalized recommendation systems, designed to revolutionize how content is discovered and consumed across digital platforms.</p>
+                            <p class="card-text">Utilizing advanced machine learning techniques like collaborative filtering and deep learning, I developed an AI-driven recommendation engine that could predict user preferences with remarkable precision. The system analyzed complex interaction patterns across multiple data points to create truly personalized experiences.</p>
+                            <p class="card-text">The key was persistence and being open to continuous learning and adaptation. My mentor, Dr. Robert Chen, guided me to look beyond the algorithms and understand the human-centric approach to technological innovation.</p>
+                            <a href="http://hdl.handle.net/10810/63215">PDF</a>
+                            <div class="text-end mt-3">
+                                <span class="badge bg-success">Advanced AI Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección en Euskera (Originales) -->
+        <section id="euskera">
+            <h2 class="mb-4 text-center text-secondary">Jatorrizko Memoriak Euskaraz</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Larrayoz Vicuña, Xabier</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">Informatika Ingeniaritza | 2023. Promozioa</h6>
+                            <p class="card-text">Nire TFGa cloud computing-aren mundu konplexuan murgiltzea bezalakoa izan zen. Helburua zen euskal enpresa txikiei beren datuen kudeaketan laguntzeko plataforma bat garatzea, segurtasuna eta eraginkortasuna bermatuz.</p>
+                            <p class="card-text">Proiektuak bi fase nagusi izan zituen: lehenik, cloud architekturen azterlan sakona egin nuen, eta ondoren, prototipo bat garatu nuen mikrozerbitzu arkitekturaren bidez. Kubernetes eta Docker bezalako teknologiek funtsezko papera jokatu zuten nire soluzioan.</p>
+                            <p class="card-text">Ikasketa etengabea eta pazientzia dira gakoak. Ikasi nuen teknologia ez dela soilik kodea, baizik eta pertsonen beharrei erantzuteko tresna bat. Nire tutoreak, Mikel López Dr.ak, lagundu zidan ikuspegi kritikoa mantentzen eta etengabe hobetzen.</p>
+                            <a href="http://hdl.handle.net/10810/63206">PDF</a>
+                            <div class="text-end mt-3">
+                                <span class="badge bg-info">Proiektu Innovatzailea</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">De la Cruz Odriozola, Sua</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">Datuen Zientzia | 2022. Promozioa</h6>
+                            <p class="card-text">Machine Learning proiektu bat egin nuen, zeina diseinatu nuen nekazaritza adimendunaren eremuan. Helburua zen laboreen osasuna eta produktibitatea hobetzeko sistema bat garatzea, datuen analisi aurreratuaren bidez.</p>
+                            <p class="card-text">Proiektuak satelite-irudiak, sentsore-datuak eta algoritmoak konbinatu zituen, laboreen gaixotasunak goiz detektatzeko. TensorFlow eta Python erabili nituen eredu prediktiboak sortzeko, zeinek %92ko zehaztasunarekin aurresan zitzaketen landarearen osasun-egoera.</p>
+                            <p class="card-text">Garrantzitsua da aldez aurretik ongi planifikatzea eta tutorearekin komunikazio ona izatea. Dr. Izaskun Fernándezek lagundu zidan ikuspegi zientifiko zorrotza mantentzen eta emaitzak etengabe hobetzen.</p>
+                            <a href="http://hdl.handle.net/10810/63197">PDF</a>
+                            <div class="text-end mt-3">
+                                <span class="badge bg-warning">Ikerketa Aurreratua</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-2">© 2024 TFG Gida - Informatika Fakultatea</p>
+            <p class="small text-muted">Etorkizuneko teknologia-berritzaileak inspiratzen</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
