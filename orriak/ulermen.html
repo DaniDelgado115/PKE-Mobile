@@ -44,7 +44,6 @@
       </div>
     </nav>
 
-    <!-- Offcanvas navbar for smaller screens -->
     <nav class="navbar navbar-light bg-body-tertiary fixed-top d-lg-none">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">GrAL Gida</a>
@@ -92,104 +91,106 @@
 
     <h1>Ulermen ebaluazioa</h1>
     <br>
-    <form id="evaluationForm">
-      <h3>1. Zenbat deialdi izan ahal dituzu matrikula bakoitzeko?</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="deialdi" id="flexRadioDefault1" value="Bakarra">
-        <label class="form-check-label" for="flexRadioDefault1">
-          Bakarra
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="deialdi" id="flexRadioDefault2" value="Bi">
-        <label class="form-check-label" for="flexRadioDefault2">
-          Bi
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="deialdi" id="flexRadioDefault3" value="Nahi izan beste">
-        <label class="form-check-label" for="flexRadioDefault3">
-          Nahi izan beste
-        </label>
-      </div>
-      <div id="result1"></div>
-      <br>
-      <h3>2. Zenbat Zuzendari izan ditzakezu?</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="zuzendari" id="flexRadioDefault21" value="Gehienez bat">
-        <label class="form-check-label" for="flexRadioDefault21">
-          Gehienez bat
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="zuzendari" id="flexRadioDefault22" value="Bat edo gehiago">
-        <label class="form-check-label" for="flexRadioDefault22">
-          Bat edo gehiago
-        </label>
-      </div>
-      <div id="result2"></div>
-      <br>
-      <h3>3. Lan bakoitzerako epaimahi kopurua zenbatekoa da?</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="epaimahi" id="flexRadioDefault31" value="Bat">
-        <label class="form-check-label" for="flexRadioDefault31">
-          Bat
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="epaimahi" id="flexRadioDefault32" value="Bi">
-        <label class="form-check-label" for="flexRadioDefault32">
-          Bi
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="epaimahi" id="flexRadioDefault33" value="Hiru">
-        <label class="form-check-label" for="flexRadioDefault33">
-          Hiru
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="epaimahi" id="flexRadioDefault34" value="Hiru edo gehiago">
-        <label class="form-check-label" for="flexRadioDefault34">
-          Hiru edo gehiago
-        </label>
-      </div>
-      <div id="result3"></div>
-      <br>
-      <h3>4. Kreditu guztiak gaindituak izan gabe GrALa egiteko aukera duzu? Ingeniaritza informatikoan zehazki</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="kredituak" id="flexRadioDefault41" value="Bai">
-        <label class="form-check-label" for="flexRadioDefault41">
-          Bai
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="kredituak" id="flexRadioDefault42" value="Ez">
-        <label class="form-check-label" for="flexRadioDefault42">
-          Ez
-        </label>
-      </div>
-      <div id="result4"></div>
-      <br>
-      <h3>5. Zenbat kredituko pisua izango du GrAL-ak?</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="pisua" id="flexRadioDefault51" value="12">
-        <label class="form-check-label" for="flexRadioDefault51">
-          12
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="pisua" id="flexRadioDefault52" value="15">
-        <label class="form-check-label" for="flexRadioDefault52">
-          15
-        </label>
-      </div>
-      <div id="result5"></div>
-      <br>
-      <button type="submit" class="btn btn-primary">Bidali</button>
-      <span id="totalResult" class="ms-3"></span>
-    </form>
-
+    <div class="container my-4">
+    	<form id="evaluationForm">
+      	<h3>1. Zenbat deialdi izan ahal dituzu matrikula bakoitzeko?</h3>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="deialdi" id="flexRadioDefault1" value="Bakarra">
+        	<label class="form-check-label" for="flexRadioDefault1">
+          	Bakarra
+        	</label>
+      	</div>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="deialdi" id="flexRadioDefault2" value="Bi">
+        	<label class="form-check-label" for="flexRadioDefault2">
+          	Bi
+        	</label>
+      	</div>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="deialdi" id="flexRadioDefault3" value="Nahi izan beste">
+        	<label class="form-check-label" for="flexRadioDefault3">
+          	Nahi izan beste
+        	</label>
+      	</div>
+      	<div id="result1"></div>
+      	<br>
+      	<h3>2. Zenbat Zuzendari izan ditzakezu?</h3>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="zuzendari" id="flexRadioDefault21" value="Gehienez bat">
+        	<label class="form-check-label" for="flexRadioDefault21">
+        	  Gehienez bat
+        	</label>
+      	</div>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="zuzendari" id="flexRadioDefault22" value="Bat edo gehiago">
+        	<label class="form-check-label" for="flexRadioDefault22">
+          	Bat edo gehiago
+        	</label>
+      	</div>
+      	<div id="result2"></div>
+      	<br>
+      	<h3>3. Lan bakoitzerako epaimahi kopurua zenbatekoa da?</h3>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="epaimahi" id="flexRadioDefault31" value="Bat">
+        	<label class="form-check-label" for="flexRadioDefault31">
+          	Bat
+        	</label>
+      	</div>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="epaimahi" id="flexRadioDefault32" value="Bi">
+        	<label class="form-check-label" for="flexRadioDefault32">
+          	Bi
+        	</label>
+      	</div>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="epaimahi" id="flexRadioDefault33" value="Hiru">
+        	<label class="form-check-label" for="flexRadioDefault33">
+          	Hiru
+        	</label>
+      	</div>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="epaimahi" id="flexRadioDefault34" value="Hiru edo gehiago">
+        	<label class="form-check-label" for="flexRadioDefault34">
+          	Hiru edo gehiago
+        	</label>
+      	</div>
+      	<div id="result3"></div>
+      	<br>
+      	<h3>4. Kreditu guztiak gaindituak izan gabe GrALa egiteko aukera duzu? Ingeniaritza informatikoan zehazki</h3>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="kredituak" id="flexRadioDefault41" value="Bai">
+        	<label class="form-check-label" for="flexRadioDefault41">
+          	Bai
+        	</label>
+      	</div>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="kredituak" id="flexRadioDefault42" value="Ez">
+        	<label class="form-check-label" for="flexRadioDefault42">
+          	Ez
+        	</label>
+      	</div>
+      	<div id="result4"></div>
+      	<br>
+      	<h3>5. Zenbat kredituko pisua izango du GrAL-ak?</h3>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="pisua" id="flexRadioDefault51" value="12">
+        	<label class="form-check-label" for="flexRadioDefault51">
+          	12
+        	</label>
+      	</div>
+      	<div class="form-check">
+        	<input class="form-check-input" type="radio" name="pisua" id="flexRadioDefault52" value="15">
+        	<label class="form-check-label" for="flexRadioDefault52">
+          	15
+        	</label>
+      	</div>
+      	<div id="result5"></div>
+      	<br>
+      	<button type="submit" class="btn btn-primary">Bidali</button>
+      	<span id="totalResult" class="ms-3"></span>
+				<br>
+    	</form>
+		</div>
     <script>
       document.getElementById('evaluationForm').addEventListener('submit', function(event) {
         event.preventDefault();
@@ -227,10 +228,10 @@
       });
     </script>
     <footer class="bg-dark text-white text-center py-4">
-  <div class="container">
-      <p class="mb-2">© 2024 TFG Gida - Informatika Fakultatea</p>
-      <p class="small text-muted">Etorkizuneko teknologia-berritzaileak inspiratzen</p>
-  </div>
-</footer>
+  		<div class="container">
+      	<p class="mb-2">© 2024 TFG Gida - Informatika Fakultatea</p>
+      	<p class="small text-muted">Etorkizuneko teknologia-berritzaileak inspiratzen</p>
+  		</div>
+		</footer>
   </body>
 </html>
